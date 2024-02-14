@@ -1,0 +1,31 @@
+Ryan Dahl - Creator of Node.js
+Node.js is a JavaScript runtime environment built on Chrome's V8 JavaScript engine.
+Node.js is a JavaScript running on the server.
+
+
+Chrome's V8 engine: Converts Js code into machine code.
+1. Built for Google Chrome
+2. Just-In-Time (JIT) Compiler:A just-in-time compiler is a feature of the V8 engine that translates
+JavaScript code into machine code at runtime. Unlike an interpreter, 
+which reads and executes code line by line, a JIT compiler converts 
+the entire script into machine code before execution. 
+This process improves performance as the compiled machine
+code can be executed faster than interpreting each line individually.
+
+History Of Nodejs:
+In 2009 an idea came in the mind of Ryan Dahl(Google Engineer)
+that why not run JS outside browser, so he took V8 engine and embedded in 
+a C++ program and called it Node.exe and later on became 
+Nodejs.
+
+When to Use Node.js:
+
+Ideal for I/O bound tasks and data streaming applications.
+Well-suited for real-time chat applications due to its non-blocking, asynchronous nature.
+ 
+
+Modules: Consider modules to be the same as JavaScript libraries. A set of functions you want to include in your appliaction.
+Node.js has a set of built-in modules which we can use without any further installation.
+
+
+
